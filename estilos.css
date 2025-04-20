@@ -1,0 +1,70 @@
+#titulo { /*Esto es un comentario*/
+    color: brown;
+}
+
+
+p.otra {
+    color: aqua;
+}
+
+p.texto {
+    color: blue;
+}
+
+div p {
+    color: chartreuse;
+}
+
+div h2,
+div h3 { /*Esto es un comentario*/
+    color: chocolate;
+}
+
+* { /* Se aplica a todo menos lo que tenga formato*/
+    color: black;
+    font-size: 24px;
+}
+
+.color {
+    /*Colores en Hexa*/
+    /*
+    color: #95f3ff;
+    */
+
+    /*Colores en Rgb 0/255
+    color: rgb(127, 0, 128);
+    border: 10px red double;
+    */
+    border-style: double;
+    border-color: red;
+    border-radius: 5px;
+    border-width: 1cm;
+}
+
+#fondo {
+    background-color: rgb(255, 0, 0);
+    opacity: 0.5; /* Le da una transparencia completa al conjunto */
+    /*
+    background-image: url('software.jpg');
+    background-position: cover;
+    height: 300px; 
+    background-repeat: repeat-x;
+    */
+}
+
+.margenes {
+    background-color: tomato;
+    margin: 15px 30px 25px 25px;
+    padding: 30px;
+    height: 200px;
+    width: 100px;
+    overflow: scroll;
+    outline: 2px solid green;
+}
+
+.txt {
+    text-align: center;
+    /* text-decoration: overline; */
+    text-shadow: 3px 5px 5px black;
+    font-family: 'Courier New', Courier, monospace;
+}
